@@ -5,10 +5,6 @@ A sample Golang application with [cobra](https://github.com/spf13/cobra), which 
 
 ## Getting Started
 
-1. Install `cobra/cmd` to use `cobra` cli.
-    ```bash
-    go install github.com/spf13/cobra/cobra
-    ```
 1. Make your own directory.
     ```bash
     mkdir cobra-sample
@@ -18,9 +14,13 @@ A sample Golang application with [cobra](https://github.com/spf13/cobra), which 
     ```bash
     go mod init github.com/nakamasato/cobra-sample
     ```
+1. Install `cobra-cli` cli.
+    ```bash
+    go install github.com/spf13/cobra-cli@latest
+    ```
 1. Init cobra application with `cobra` cli.
     ```bash
-    cobra init sample --pkg-name github.com/nakamasato/cobra-sample/sample
+    cobra-cli init sample --author nakamasato
     Your Cobra application is ready at
     /Users/masato-naka/repos/nakamasato/cobra-sample/sample
     ```
