@@ -44,13 +44,10 @@ A sample Golang application with [cobra](https://github.com/spf13/cobra), which 
 		fmt.Println("Hello world!")
 	},
     ```
-1. Change directory to `sample`
-    ```bash
-    cd sample
-    ```
+
 1. Run.
     ```bash
-    go run main.go
+    go run sample/main.go
     Hello world!
     ```
 
