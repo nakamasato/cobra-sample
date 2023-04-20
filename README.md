@@ -1,54 +1,20 @@
-# cobra sample
+# cobra sample `sample-cli`
 
-A sample Golang application with [cobra](https://github.com/spf13/cobra), which is used by many of Kubernetes operators and other applications.
+A sample cli written in Golang with [cobra](https://github.com/spf13/cobra), which is commonly used by go-based cli tools.
 
+## Install
 
-## Getting Started
+```
+go install github.com/nakamasato/cobra-sample/sample-cli
+```
 
-1. Make your own directory.
-    ```bash
-    mkdir cobra-sample
-    cd cobra-sample
-    ```
-1. Initialize go module.
-    ```bash
-    go mod init github.com/nakamasato/cobra-sample
-    ```
-1. Install `cobra-cli` cli.
-    ```bash
-    go install github.com/spf13/cobra-cli@latest
-    ```
-1. Init cobra application with `cobra` cli.
-    ```bash
-    cobra-cli init sample --author nakamasato
-    Your Cobra application is ready at
-    /Users/masato-naka/repos/nakamasato/cobra-sample/sample
-    ```
+## Usage
 
-    This command generates the following files:
-    ```bash
-    tree
-    .
-    ├── go.mod
-    ├── go.sum
-    └── sample
-        ├── LICENSE
-        ├── cmd
-        │   └── root.go
-        └── main.go
-    ```
+```
+sample-cli
+Hello world!
+```
 
-1. Update `sample/cmd/root.go`
-    ```go
-    Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Hello world!")
-	},
-    ```
+## How to create cobra cli
 
-1. Run.
-    ```bash
-    go run sample/main.go
-    Hello world!
-    ```
-
-For more details, please read https://github.com/spf13/cobra
+[How to create sample-cil with cobra](docs/how-to-create-cobra-cli.md): Here's how the sample-cli is created.
