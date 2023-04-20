@@ -53,4 +53,7 @@
     Hello world!
     ```
 
-For more details, please read https://github.com/spf13/cobra
+For more details, please read
+
+1. https://github.com/spf13/cobra
+1. https://github.com/spf13/cobra-cli/blob/main/README.md
