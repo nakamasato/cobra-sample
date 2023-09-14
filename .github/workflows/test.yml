@@ -28,4 +28,4 @@ jobs:
         run: go run sample-cli/main.go
 
       - name: codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
