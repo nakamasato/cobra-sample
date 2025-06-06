@@ -2,7 +2,7 @@ module github.com/nakamasato/cobra-sample
 
 go 1.21.0
 
-toolchain go1.24.3
+toolchain go1.24.4
 
 require (
 	github.com/spf13/cobra v1.9.1
